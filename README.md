@@ -53,7 +53,7 @@ This repository is the source code of my research that I used Relative Articles 
 - 類似度閾値: 0.51  
 
 ### 実行方法
-1. 「各ファイルの説明」にあるファイルを同じディレクトリに置く  
+1. SOURCE CODEにあるファイルを同じディレクトリに置く  
 2. 「システムの入力ファイル」にあるファイルを同じディレクトリに置く  
 3. preprocess.pyの64行目のコメント記号を消し，106行目にコメント記号をつける  
 4. calculate.pyの21行目から45行目までのコメント記号を消し，48行目から56行目までをコメントアウトする  
