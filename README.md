@@ -57,7 +57,7 @@ This repository is the source code of my research that I used Relative Articles 
 2. 「システムの入力ファイル」にあるファイルを同じディレクトリに置く  
 3. preprocess.pyの64行目のコメント記号を消し，106行目にコメント記号をつける  
 4. calculate.pyの21行目から45行目までのコメント記号を消し，48行目から56行目までをコメントアウトする  
-5. 論文本文の9ページのアルゴリズムに従い，グローバル変数である閾値の初期値と刻みの値を入れて，閾値を決めるまでpreprocess.pyを実行する  
+5. グローバル変数である閾値の初期値と刻みの値を入れて，閾値を決めるまでpreprocess.pyを実行する  
 6. 計算した閾値をpreprocess.pyのグローバル変数THRESHOLDに入力する  
 7. 106行目のコメント記号を消し，64行目にコメント記号をつける  
 8. calculate.pyの48行目から56行目までのコメント記号を消し，21行目から45行目までをコメントアウトして，preprocess.pyを実行する  
