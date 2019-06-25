@@ -53,8 +53,8 @@ This repository is the source code of my research that I used Relative Articles 
 - 類似度閾値: 0.51  
 
 ### 実行方法
-1. SOURCE CODEにあるファイルを同じディレクトリに置く  
-2. 「システムの入力ファイル」にあるファイルを同じディレクトリに置く  
+1. 「SOURCE CODE」にあるファイルを同じディレクトリに置く  
+2. 「入力ファイル」にあるファイルを同じディレクトリに置く  
 3. preprocess.pyの64行目のコメント記号を消し，106行目にコメント記号をつける  
 4. calculate.pyの21行目から45行目までのコメント記号を消し，48行目から56行目までをコメントアウトする  
 5. グローバル変数である閾値の初期値と刻みの値を入れて，閾値を決めるまでpreprocess.pyを実行する  
@@ -75,7 +75,7 @@ This repository is the source code of my research that I used Relative Articles 
 - slothlib_stopword.txt: ストップワードを保存するファイル  ([ここ](http://svn.sourceforge.jp/svnroot/slothlib/CSharp/Version1/SlothLib/NLP/Filter/StopWord/word/Japanese.txt)からダウンロードしたもの)  
 - OBJECT: 対象記事を保存するファイル  
 
-### システムの出力ファイル
+### 出力ファイル
 **preprocess.pyの出力ファイル**  
 - feature_words.txt: 各記事から抽出した特徴語を保存するファイル  
 - articles_similarityVec.txt: 各記事記事類似度行列を保存するファイル  
